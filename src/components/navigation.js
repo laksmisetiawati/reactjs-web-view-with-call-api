@@ -9,7 +9,7 @@ class Navigation extends Component {
     return (
       <nav>
         <ul>
-          <li><NavLink to="/">Post</NavLink></li>
+          <li><NavLink to="/posts">Posts</NavLink></li>
           <li><NavLink to="/users">Users</NavLink></li>
           <li><NavLink to="/settings">Settings</NavLink></li>
         </ul>

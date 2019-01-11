@@ -16,8 +16,11 @@ body {
   float: right
 }
 
-.userList {
+.wrapUserList {
   border: 1px solid #cccccc
+}
+.userList {
+  margin-bottom: 10px;
 }
 
 

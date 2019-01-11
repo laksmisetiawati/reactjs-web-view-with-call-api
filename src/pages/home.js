@@ -1,13 +1,26 @@
 import React, { Component } from 'react';
 
+import Bootstrap from './../components/bootstrap';
+import Navigation from './../components/navigation';
+
 // ASSETS
 import './../assets/css/main.css';
 
 class HomePage extends Component {
   render() {
     return (
-      <div className="App">
-        <p>Home</p>
+      <div className="container">
+         <Bootstrap />
+        <div className="row">
+          <div className="col-md-3">
+            <Navigation />
+          </div>
+          <div className="userList col-md-9">
+            <div className="App">
+              <p>home</p>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

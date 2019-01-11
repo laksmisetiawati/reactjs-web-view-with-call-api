@@ -6,7 +6,7 @@ import Navigation from './../components/navigation';
 // ASSETS
 import './../assets/css/main.css';
 
-class SettingsPage extends Component {
+class PostsPage extends Component {
   render() {
     return (
       <div className="container">
@@ -17,7 +17,7 @@ class SettingsPage extends Component {
           </div>
           <div className="userList col-md-9">
             <div className="App">
-              <p>settings</p>
+              <p>post</p>
             </div>
           </div>
         </div>
@@ -26,4 +26,4 @@ class SettingsPage extends Component {
   }
 }
 
-export default SettingsPage;
+export default PostsPage;
