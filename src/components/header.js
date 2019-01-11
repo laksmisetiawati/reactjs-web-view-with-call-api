@@ -9,8 +9,8 @@ class Header extends Component {
     return (
       <div className="container">
          <div className="row">
-            <div className="col-md-6"><h2>My Admin</h2></div>
-            <div className="col-md-6">
+            <div className="col-sm-6"><h2>My Admin</h2></div>
+            <div className="col-sm-6">
                <div className="clearfix">
                   <a href="/" className="fRight">logout</a>
                   <p className="fRight">Welcome <NavLink to="/">Admin</NavLink>,&nbsp;</p>

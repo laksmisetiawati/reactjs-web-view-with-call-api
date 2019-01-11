@@ -61,7 +61,7 @@ class UsersPage extends Component {
                     </div>
                   </div>
 
-                  <div className="address col-lg-6 d-md-none d-lg-block">
+                  <div className="address col-lg-6 d-none d-sm-none d-md-none d-lg-block">
                     <p>{user.address.street}</p>
                     <p>{user.address.suite}</p>
                     <p>{user.address.city}</p>
