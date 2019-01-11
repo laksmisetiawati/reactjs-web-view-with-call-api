@@ -7,7 +7,7 @@ import './../assets/css/main.css';
 class Navigation extends Component {
   render() {
     return (
-      <nav>
+      <nav className="col-lg-2 d-md-none d-lg-block">
         <ul>
           <li><NavLink to="/posts">Posts</NavLink></li>
           <li><NavLink to="/users">Users</NavLink></li>

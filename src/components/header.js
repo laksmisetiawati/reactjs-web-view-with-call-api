@@ -12,8 +12,8 @@ class Header extends Component {
             <div className="col-md-6"><h2>My Admin</h2></div>
             <div className="col-md-6">
                <div className="clearfix">
-                  <a className="fRight">logout</a>
-                  <p className="fRight">Welcome <NavLink to="/">Admin</NavLink>,</p>
+                  <a href="/" className="fRight">logout</a>
+                  <p className="fRight">Welcome <NavLink to="/">Admin</NavLink>,&nbsp;</p>
                </div>
             </div>
          </div>

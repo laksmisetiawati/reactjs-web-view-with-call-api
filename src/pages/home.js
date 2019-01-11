@@ -10,15 +10,12 @@ class HomePage extends Component {
   render() {
     return (
       <div className="container">
-         <Bootstrap />
+        <Bootstrap />
         <div className="row">
-          <div className="col-md-3">
-            <Navigation />
-          </div>
-          <div className="userList col-md-9">
-            <div className="App">
-              <p>home</p>
-            </div>
+          <Navigation />
+
+          <div className="wrapUserList col-lg-10">
+            <h3 className="title">Admin Home</h3>
           </div>
         </div>
       </div>
