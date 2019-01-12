@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Bootstrap from './../components/bootstrap';
 import Navigation from './../components/navigation';
 
 // ASSETS
@@ -8,7 +7,6 @@ import './../assets/css/main.css';
 
 const Error404Page = () => (
   <div className="container">
-    <Bootstrap />
     <div className="row">
       <Navigation />
 

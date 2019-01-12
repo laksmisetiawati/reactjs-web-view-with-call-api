@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 // import {Gmaps, Marker, InfoWindow, Circle} from 'react-gmaps';
 
-import Bootstrap from './../components/bootstrap';
 import Navigation from './../components/navigation';
 
 // ASSETS
@@ -60,7 +59,6 @@ class UsersDetailPage extends Component {
     
     return (
       <div className="container">
-        <Bootstrap />
 
         <div className="row">
           <Navigation />

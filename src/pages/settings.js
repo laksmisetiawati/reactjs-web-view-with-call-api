@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import Bootstrap from './../components/bootstrap';
 import Navigation from './../components/navigation';
 
 // ASSETS
@@ -10,7 +9,6 @@ class SettingsPage extends Component {
   render() {
     return (
       <div className="container">
-        <Bootstrap />
 
         <div className="row">
           <Navigation />

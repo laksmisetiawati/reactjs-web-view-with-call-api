@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import axios from 'axios';
 
-import Bootstrap from './../components/bootstrap';
 import Navigation from './../components/navigation';
 
 // ASSETS
@@ -26,7 +25,6 @@ class UsersPage extends Component {
     
     return (
       <div className="container">
-        <Bootstrap />
         <div className="row">
           <Navigation />
 
