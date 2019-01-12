@@ -27,6 +27,9 @@ a {
 .imgResponsive {
   max-width: 100%;
 }
+header .col-6 {
+  margin: 15px 0px;
+}
 nav {
   padding-right: 0 !important;
   right: -1px;
@@ -54,6 +57,12 @@ nav ul li:first-child a {
 nav ul li a.active {
   background-color: #ffffff;
   border-right-color: #ffffff;
+}
+.no-padding {
+  padding: 0px !important;
+}
+.no-margin {
+  margin: 0px !important;
 }
 .wrapUserList {
   border: 1px solid #333333;
@@ -85,13 +94,25 @@ nav ul li a.active {
   padding-left: 1.3em;
   margin-bottom: 0 !important;
 }
-.address {
+.address > div {
   background-image: url("../images/icon.jpg");
   background-position: -3px -40px;
   background-repeat: no-repeat;
+  padding-left: 1em;
+  margin-bottom: 2em;
 }
 .address p {
   margin: 0em 0em 0em 0.3em !important;
+}
+.website {
+  background-image: url("../images/icon.jpg");
+  background-position: 0px -138px;
+  background-repeat: no-repeat;
+  padding-left: 1.3em;
+  margin-bottom: 0 !important;
+}
+.company-title {
+  margin-top: 1.5em;
 }
 
 
