@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-// import {Gmaps, Marker, InfoWindow, Circle} from 'react-gmaps';
+import {Gmaps, Marker, InfoWindow, Circle} from 'react-gmaps';
 
 import Navigation from './../components/navigation';
 
@@ -34,28 +34,27 @@ class UsersDetailPage extends Component {
       })
   }
 
-  // onMapCreated(map) {
-  //   map.setOptions({
-  //     disableDefaultUI: true
-  //   });
-  // }
+  onMapCreated(map) {
+    map.setOptions({
+      disableDefaultUI: true
+    });
+  }
 
-  // onDragEnd(e) {
-  //   console.log('onDragEnd', e);
-  // }
+  onDragEnd(e) {
+    console.log('onDragEnd', e);
+  }
 
-  // onCloseClick() {
-  //   console.log('onCloseClick');
-  // }
+  onCloseClick() {
+    console.log('onCloseClick');
+  }
 
-  // onClick(e) {
-  //   console.log('onClick', e);
-  // }
+  onClick(e) {
+    console.log('onClick', e);
+  }
 
   render() {
     const datas = this.state.user_data;
-    
-    // const params = {v: '3.exp', key: 'AIzaSyDlWR1cGnWHlBk1v7rm_yIekbZ01PD4-X4'};
+    const params = {v: '3.exp', key: 'AIzaSyDlWR1cGnWHlBk1v7rm_yIekbZ01PD4-X4'};
     
     return (
       <div className="container">
@@ -106,9 +105,9 @@ class UsersDetailPage extends Component {
                         <p>{user.address.zipcode}</p>
                       </div>
 
-                      <iframe src={"https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15865.66387446982!2d" + user.address.geo.lng + "!3d" + user.address.geo.lat + "!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1547253889458"} width="80%" height="200" frameBorder="0" allowFullScreen title={user.address.street + "<br />" + user.address.suite + "<br />" + user.address.city + "<br />" + user.address.zipcode}></iframe>
+                      {/* <iframe src={"https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15865.66387446982!2d" + user.address.geo.lng + "!3d" + user.address.geo.lat + "!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1547253889458"} width="80%" height="200" frameBorder="0" allowFullScreen title={user.address.street + "<br />" + user.address.suite + "<br />" + user.address.city + "<br />" + user.address.zipcode}></iframe> */}
 
-                      {/* <Gmaps
+                      <Gmaps
                         width={'80%'}
                         height={'200px'}
                         lat={user.address.geo.lat}
@@ -132,7 +131,7 @@ class UsersDetailPage extends Component {
                           lng={user.address.geo.lng}
                           radius={500}
                           onClick={this.onClick} />
-                      </Gmaps> */}
+                      </Gmaps>
 
                   </div>
                 </div>
