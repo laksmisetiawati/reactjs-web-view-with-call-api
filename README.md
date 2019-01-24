@@ -1,3 +1,46 @@
+Learning ReactJS website view by calling API
+
+
+## Table of Contents
+* [Built With](#built-with)
+
+
+
+## Built With ##
+* -   
+
+
+
+## Getting started
+
+### Starting   
+
+[^](#table-of-contents)   
+
+
+
+### Working With SQLite3 Native
+[Source](https://github.com/andpor/react-native-sqlite-storage#how-to-use-ios)   
+[^](#table-of-contents)   
+
+
+
+---
+
+
+
+## Notes ##
+
+
+
+> I will update README later ~~if I didn't forgot~~
+
+
+
+---
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
