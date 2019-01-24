@@ -7,7 +7,8 @@ Learning ReactJS website view by calling API
 
 
 ## Built With ##
-* -   
+*    
+[^](#table-of-contents) 
 
 
 
@@ -19,8 +20,8 @@ Learning ReactJS website view by calling API
 
 
 
-### Working With SQLite3 Native
-[Source](https://github.com/andpor/react-native-sqlite-storage#how-to-use-ios)   
+### X
+  
 [^](#table-of-contents)   
 
 
